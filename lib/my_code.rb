@@ -16,6 +16,4 @@ end
     
 
 def reduce_to_total(source_array, starting_point = 0)
-  [2] pry(main)> [1,2,3].reduce(0) { |sum, num| sum + num}
-  [3] pry(main)> [1,2,3].reduce(100) { |sum, num| sum + num}
 end
