@@ -16,5 +16,5 @@ end
     
 
 def reduce_to_total(source_array, starting_point)
-  source_array.reduce { |sum, num| sum + num}
+  source_array.inject { |sum, num| sum + num}
 end
