@@ -22,5 +22,5 @@ end
 
 def reduce_to_all_true(source_array)
   new_array = source_array.map{|e| !!e}
-  new_array.any? {|a|
+  new_array.any? {|a| a == 
 end
