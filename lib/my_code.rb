@@ -24,3 +24,6 @@ def reduce_to_all_true(source_array)
   new_array = source_array.map{|e| !!e}
   new_array.none? {|a| a == false} 
 end
+
+def reduce_to_any_true(source_array)
+  second_array = source_array.map{|e| !!e}
