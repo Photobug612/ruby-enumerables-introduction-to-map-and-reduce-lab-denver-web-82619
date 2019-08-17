@@ -27,3 +27,6 @@ end
 
 def reduce_to_any_true(source_array)
   second_array = source_array.map{|e| !!e}
+  second_array.any? {|a| a == true}
+end
+  
